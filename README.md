@@ -6,6 +6,6 @@ curl -X POST -H "Content-Type: application/json" -d '{"name": "name"}' http://lo
 
 curl -X POST -H "Content-Type: application/json" http://localhost:{port}/pet/feed
 
-curl -X POST -H "Content-Type: application/json" http://localhost:{port}/pet/health
+curl -X POST -H "Content-Type: application/json" http://localhost:{port}/pet/heal
 
 curl -X POST -H "Content-Type: application/json" http://localhost:{port}/pet/play
